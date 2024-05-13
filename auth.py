@@ -1,10 +1,3 @@
-# Ultroid - UserBot
-# Copyright (C) 2021-2022 TeamUltroid
-#
-# This file is a part of < https://github.com/TeamUltroid/Ultroid/ >
-# PLease read the GNU Affero General Public License in
-# <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
-
 """
 ✘ Commands Available -
 
@@ -27,7 +20,7 @@
     Get The List of People having vc access.
 """
 
-from pyUltroid.dB.vc_sudos import add_vcsudo, del_vcsudo, get_vcsudos, is_vcsudo
+from blade.dB.vc_sudos import add_vcsudo, del_vcsudo, get_vcsudos, is_vcsudo
 from . import vc_asst, owner_and_sudos, get_string, udB
 
 
